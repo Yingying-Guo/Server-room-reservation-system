@@ -99,22 +99,18 @@ void managerMenu(Identity*& manager)
 
 		if (select == 1)  //添加账户
 		{
-			cout << "添加账户" << endl;
 			man->addPerson();
 		}
 		else if (select == 2)  //查看账户
 		{
-			cout << "查看账户" << endl;
 			man->showPerson();
 		}
 		else if (select == 3)  //查看机房
 		{
-			cout << "查看机房" << endl;
 			man->showComputer();
 		}
 		else if (select == 4)  //清空预约
 		{
-			cout << "清空预约" << endl;
 			man->cleanFile();
 		}
 		else //注销
